@@ -5,10 +5,10 @@ namespace PianoTiles;
 /// <summary>Controla el bucle de juego: teclas, tiempo, reglas y final de partida.</summary>
 public class Partida
 {
-    private const int IntervaloInicialMs = 800;
+    private const int IntervaloInicialMs = 1900;
     private const int ReduccionMs = 50;
     private const int PuntosPorNivel = 10;
-    private const int IntervaloMinimoMs = 200;
+    private const int IntervaloMinimoMs = 600;
 
     private static readonly Dictionary<ConsoleKey, int> Teclas = new()
     {
