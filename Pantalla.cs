@@ -31,7 +31,7 @@ public class Pantalla
             sb.AppendLine(Rellenar(linea.ToString()));
         }
 
-        sb.AppendLine(Rellenar("  D    F    J    K"));
+        sb.AppendLine(Rellenar("  D    F    K    L"));
         sb.AppendLine(Rellenar(""));
         sb.AppendLine(Rellenar($"Puntos: {jugador.Puntos}   Vidas: {jugador.Vidas}   Récord: {jugador.Record}"));
 

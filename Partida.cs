@@ -14,8 +14,8 @@ public class Partida
     {
         { ConsoleKey.D, 0 },
         { ConsoleKey.F, 1 },
-        { ConsoleKey.J, 2 },
-        { ConsoleKey.K, 3 }
+        { ConsoleKey.K, 2 },
+        { ConsoleKey.L, 3 }
     };
 
     private readonly Tablero _tablero = new();
